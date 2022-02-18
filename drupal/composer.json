@@ -16,7 +16,7 @@
     ],
     "require": {
         "composer/installers": "1.12.0",
-        "cweagans/composer-patches": "1.7.1",
+        "cweagans/composer-patches": "1.7.2",
         "drupal-tome/tome_drush": "dev-master",
         "drupal/admin_audit_trail": "1.0.0-beta1",
         "drupal/admin_toolbar": "3.0.3",
@@ -85,7 +85,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "scripts": {
         "post-create-project-cmd": ""
