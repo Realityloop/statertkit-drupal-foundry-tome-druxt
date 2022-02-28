@@ -1,4 +1,5 @@
-image: drupalpod/drupalpod-gitpod-base:20220218-optimized
+image:
+  file: .gitpod/Dockerfile
 
 tasks:
   - init: |
