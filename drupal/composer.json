@@ -28,9 +28,9 @@
         "drupal/config_filter": "^2.2",
         "drupal/config_ignore": "^3.0",
         "drupal/content_lock": "^2.2",
-        "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "^9.3",
+        "drupal/core-composer-scaffold": "9.3.9",
+        "drupal/core-project-message": "9.3.9",
+        "drupal/core-recommended": "9.3.9",
         "drupal/diff": "^1.0",
         "drupal/druxt": "^1.1.1",
         "drupal/dynamic_entity_reference": "^2.0",
@@ -81,7 +81,7 @@
         "drupal/viewfield": "^3.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.3",
+        "drupal/core-dev": "9.3.9",
         "drush/drush": "^10.5"
     },
     "conflict": {
