@@ -12,11 +12,11 @@ dependencies:
     - field.field.node.article.field_display_title
     - field.field.node.article.field_image
     - field.field.node.article.field_meta_tags
-    - field.field.node.article.field_published
     - field.field.node.article.field_video
     - node.type.article
   module:
     - entity_reference_revisions
+    - layout_paragraphs
     - title_field_for_manage_display
     - user
 id: node.article.full
@@ -33,7 +33,7 @@ content:
     weight: 4
     region: content
   field_content:
-    type: entity_reference_revisions_entity_view
+    type: layout_paragraphs
     label: hidden
     settings:
       view_mode: default
@@ -82,6 +82,5 @@ hidden:
   field_article_type: true
   field_description: true
   field_meta_tags: true
-  field_published: true
   langcode: true
   links: true
