@@ -26,6 +26,7 @@ module:
   config: 0
   config_filter: 0
   config_ignore: 0
+  config_pages: 0
   consumers: 0
   contact: 0
   content_lock: 0
@@ -37,6 +38,7 @@ module:
   dblog: 0
   decoupled_router: 0
   diff: 0
+  documentation_generator: 0
   druxt: 0
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
@@ -97,6 +99,7 @@ module:
   paragraphs_type_permissions: 0
   path: 0
   path_alias: 0
+  permissions_filter: 0
   prevent_homepage_deletion: 0
   redirect: 0
   revision_log_default: 0
