@@ -70,11 +70,13 @@ module:
   jsonapi_resources: 0
   jsonapi_views: 0
   language: 0
+  layout_builder: 0
   layout_discovery: 0
   layout_paragraphs: 0
   layout_paragraphs_library: 0
   length_indicator: 0
   link: 0
+  linkit: 0
   linky: 0
   linky_revision_ui: 0
   linkychecker: 0
@@ -86,9 +88,11 @@ module:
   media_file_delete: 0
   media_file_delete_entity_usage: 0
   media_library: 0
+  media_revisions_ui: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0
+  mysql: 0
   node: 0
   node_edit_protection: 0
   oembed_providers: 0
@@ -103,6 +107,7 @@ module:
   prevent_homepage_deletion: 0
   redirect: 0
   revision_log_default: 0
+  robotstxt: 0
   role_delegation: 0
   serialization: 0
   shortcut: 0
@@ -110,6 +115,8 @@ module:
   simple_sitemap: 0
   simple_sitemap_engines: 0
   simple_sitemap_views: 0
+  smart_date: 0
+  smart_date_recur: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -123,6 +130,7 @@ module:
   toolbar: 0
   transliterate_filenames: 0
   update: 0
+  upgrade_status: 0
   user: 0
   username_enumeration_prevention: 0
   viewfield: 0
