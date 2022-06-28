@@ -38,6 +38,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'druxt-site',
+    'druxt-layout-paragraphs',
   ],
 
   // DruxtJS: https://druxtjs.org
