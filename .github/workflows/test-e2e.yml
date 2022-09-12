@@ -53,16 +53,16 @@ jobs:
         run: cd drupal && ddev drupal-install
 
       - name: Install Nuxt.js 👨🏻‍💻
-        run: cd nuxt && npm install
+        run: cd nuxt && yarn
 
       # - name: Run linting 🔎
-      #   run: cd nuxt && npm run lint
+      #   run: cd nuxt && yarn lint
 
       # - name: Run Jest tests 🧪
-      #   run: cd nuxt && npm run test:jest
+      #   run: cd nuxt && yarn test:jest
 
-      # - name: Run Cypress tests 🧪
-      #   run: cd nuxt && NODE_TLS_REJECT_UNAUTHORIZED=0 npm run test:cy
+      - name: Run end-to-end tests 🧪
+        run: cd nuxt && NODE_TLS_REJECT_UNAUTHORIZED=0 yarn test:e2e
 
       # - uses: actions/upload-artifact@v3
       #   if: failure()

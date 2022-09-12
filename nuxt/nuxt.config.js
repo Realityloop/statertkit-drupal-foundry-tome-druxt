@@ -1,6 +1,6 @@
 import opn from 'opn'
 
-const baseUrl = process.env.BASE_URL
+const baseUrl = process.env.BASE_URL || 'http://druxtfoundry.ddev.site'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
