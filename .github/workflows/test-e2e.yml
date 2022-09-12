@@ -64,16 +64,16 @@ jobs:
       - name: Run end-to-end tests 🧪
         run: cd nuxt && NODE_TLS_REJECT_UNAUTHORIZED=0 yarn test:e2e
 
-      # - uses: actions/upload-artifact@v3
-      #   if: failure()
-      #   with:
-      #     name: cypress-screenshots
-      #     path: nuxt/cypress/screenshots
-      # - uses: actions/upload-artifact@v3
-      #   if: always()
-      #   with:
-      #     name: cypress-videos
-      #     path: nuxt/cypress/videos
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: nuxt/cypress/screenshots
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: cypress-videos
+          path: nuxt/cypress/videos
 
       # - uses: codecov/codecov-action@v3
       #   with:
