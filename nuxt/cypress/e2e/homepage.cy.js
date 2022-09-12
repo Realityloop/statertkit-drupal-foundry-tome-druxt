@@ -1,0 +1,3 @@
+it('Homepage', () => {
+  cy.visit('/')
+})

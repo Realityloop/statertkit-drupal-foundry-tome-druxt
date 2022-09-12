@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "test:e2e": "start-server-and-test dev http://localhost:3000 'npx cypress run'"
   },
   "dependencies": {
     "core-js": "3.23.3",
@@ -16,7 +17,9 @@
   },
   "devDependencies": {
     "@nuxtjs/storybook": "^4.2.0",
+    "cypress": "^10.7.0",
     "opn": "6.0.0",
-    "postcss": "8.4.14"
+    "postcss": "8.4.14",
+    "start-server-and-test": "^1.14.0"
   }
 }
