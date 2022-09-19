@@ -1,20 +1,19 @@
-uuid: 1eb23877-9051-41c3-a9ca-1fe2aec628dc
+uuid: daac8f69-211c-47a0-b8f7-c537d85f87b9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_content
-    - paragraphs.paragraphs_type.jumbotron
+    - field.storage.node.field_related_link
+    - node.type.page
     - paragraphs.paragraphs_type.link
-    - paragraphs.paragraphs_type.text_formatted
   module:
     - entity_reference_revisions
-id: paragraph.jumbotron.field_content
-field_name: field_content
-entity_type: paragraph
-bundle: jumbotron
-label: Content
-description: ''
+id: node.page.field_related_link
+field_name: field_related_link
+entity_type: node
+bundle: page
+label: 'Related Links'
+description: 'A link related to this web page, for example to other related web pages.'
 required: false
 translatable: false
 default_value: {  }
@@ -24,7 +23,6 @@ settings:
   handler_settings:
     target_bundles:
       link: link
-      text_formatted: text_formatted
     negate: 0
     target_bundles_drag_drop:
       card:
@@ -36,25 +34,25 @@ settings:
       entity_reference:
         weight: 13
         enabled: false
-      jumbotron:
+      from_library:
         weight: 14
         enabled: false
-      link:
+      jumbotron:
         weight: 15
-        enabled: true
-      media:
-        weight: 16
         enabled: false
-      section:
+      link:
+        weight: 16
+        enabled: true
+      listing:
         weight: 17
         enabled: false
-      text_formatted:
+      media:
         weight: 18
-        enabled: true
-      text_markdown:
+        enabled: false
+      section:
         weight: 19
-        enabled: true
-      text_plain:
+        enabled: false
+      text_formatted:
         weight: 20
-        enabled: true
+        enabled: false
 field_type: entity_reference_revisions
