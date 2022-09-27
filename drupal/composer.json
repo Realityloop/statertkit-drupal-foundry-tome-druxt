@@ -70,7 +70,7 @@
         "drupal/paragraphs_ee": "2.0.3",
         "drupal/pathauto": "1.10.0",
         "drupal/permissions_filter": "1.2.0",
-        "drupal/prevent_homepage_deletion": "1.4.0",
+        "drupal/prevent_homepage_deletion": "2.0.1",
         "drupal/redirect": "1.7.0",
         "drupal/revision_log_default": "1.2.0",
         "drupal/robotstxt": "1.4.0",
