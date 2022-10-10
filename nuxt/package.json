@@ -7,6 +7,7 @@
     "dev": "nuxt",
     "generate": "nuxt generate",
     "start": "nuxt start",
+    "storybook": "nuxt storybook",
     "test:e2e": "start-server-and-test dev http://localhost:3000 'npx cypress run'"
   },
   "dependencies": {
