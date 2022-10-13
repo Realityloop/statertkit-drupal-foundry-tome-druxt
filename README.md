@@ -20,6 +20,15 @@ Try it before you fork it:
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Realityloop/statertkit-drupal-foundry-tome-druxt)
 
 
+## Theme branches
+
+To get your started with a theme included, checkout the following:
+
+| Theme | Branch | GitPod |
+| -- | -- | -- |
+| [BootstrapVue](https://bootstrap-vue.org) ([Docs](https://bootstrap-vue.org/docs)) | [theme/bootstrap-vue](https://github.com/Realityloop/starterkit-drupal-foundry-tome-druxt/tree/theme/bootstrap-vue) | [Link](https://gitpod.io/#github.com/Realityloop/starterkit-drupal-foundry-tome-druxt/tree/theme/bootstrap-vue) |
+| [TailwindCSS](https://tailwindcss.com/) ([Docs](https://tailwindcss.com/docs)) | [theme/tailwindcss](https://github.com/Realityloop/starterkit-drupal-foundry-tome-druxt/tree/theme/tailwindcss) | [Link](https://gitpod.io/#github.com/Realityloop/starterkit-drupal-foundry-tome-druxt/tree/theme/tailwindcss) |
+
 ## Getting started
 
 1. Click the **Use this template** button in GitHub and follow the on-screen instructions to **Create a new repository**.
