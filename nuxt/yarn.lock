@@ -3050,6 +3050,15 @@
     postcss "^8.4.14"
     source-map "^0.6.1"
 
+"@vue/compiler-sfc@2.7.13":
+  version "2.7.13"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.13.tgz#818944f4a9616b752d48dac6a56bffe2db88bdff"
+  integrity sha512-zzu2rLRZlgIU+OT3Atbr7Y6PG+LW4wVQpPfNRrGDH3dM9PsrcVfa+1pKb8bW467bGM3aDOvAnsYLWVpYIv3GRg==
+  dependencies:
+    "@babel/parser" "^7.18.4"
+    postcss "^8.4.14"
+    source-map "^0.6.1"
+
 "@vue/compiler-sfc@^3.2.0":
   version "3.2.40"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.40.tgz#61823283efc84d25d9d2989458f305d32a2ed141"
@@ -3089,6 +3098,11 @@
     vue-template-es2015-compiler "^1.9.0"
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
+
+"@vue/devtools-api@^6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.4.5.tgz#d54e844c1adbb1e677c81c665ecef1a2b4bb8380"
+  integrity sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==
 
 "@vue/reactivity-transform@3.2.40":
   version "3.2.40"
@@ -4446,10 +4460,15 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, can
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001396.tgz"
   integrity sha512-Df93cp39XVZRoOl2EoiuNp2rc4Dnsb9mDQEs4qFa7/uTx3FnfEq+jyHLf/0Ik7GVJA6wvJuAI5ZKUtUEenAm9Q==
 
-caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001407, caniuse-lite@^1.0.30001414:
+caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001407:
   version "1.0.30001414"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001414.tgz#5f1715e506e71860b4b07c50060ea6462217611e"
   integrity sha512-t55jfSaWjCdocnFdKQoO+d2ct9C59UZg4dY3OnUlSZ447r8pUtIKdp0hpAzrGFultmTC+Us+KpKi4GZl/LXlFg==
+
+caniuse-lite@^1.0.30001429:
+  version "1.0.30001429"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001429.tgz#70cdae959096756a85713b36dd9cb82e62325639"
+  integrity sha512-511ThLu1hF+5RRRt0zYCf2U2yRr9GPF6m5y90SBCWsvSoYoW7yAGlv/elyPaNfvGCkp6kj/KFZWU0BMA69Prsg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4947,15 +4966,20 @@ core-js-compat@^3.25.1, core-js-compat@^3.8.1:
   dependencies:
     browserslist "^4.21.4"
 
-core-js@3.25.3, core-js@^3.0.4, core-js@^3.22.5, core-js@^3.6.5, core-js@^3.8.2:
-  version "3.25.3"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-3.25.3.tgz"
-  integrity sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
+core-js@3.26.0, core-js@^3.25.1:
+  version "3.26.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.0.tgz#a516db0ed0811be10eac5d94f3b8463d03faccfe"
+  integrity sha512-+DkDrhoR4Y0PxDz6rurahuB+I45OsEUv8E1maPTB6OuHRohMMcznBq9TMpdpDMm/hUPob/mJJS3PqgbHpMTQgw==
 
 core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
+core-js@^3.0.4, core-js@^3.6.5, core-js@^3.8.2:
+  version "3.25.3"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.25.3.tgz"
+  integrity sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -5356,10 +5380,10 @@ cyclist@^1.0.1:
   resolved "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz"
   integrity sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==
 
-cypress@^10.9.0:
-  version "10.9.0"
-  resolved "https://registry.npmjs.org/cypress/-/cypress-10.9.0.tgz"
-  integrity sha512-MjIWrRpc+bQM9U4kSSdATZWZ2hUqHGFEQTF7dfeZRa4MnalMtc88FIE49USWP2ZVtfy5WPBcgfBX+YorFqGElA==
+cypress@^10.11.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-10.11.0.tgz#e9fbdd7638bae3d8fb7619fd75a6330d11ebb4e8"
+  integrity sha512-lsaE7dprw5DoXM00skni6W5ElVVLGAdRUUdZjX2dYsGjbY/QnpzWZ95Zom1mkGg0hAaO/QVTZoFVS7Jgr/GUPA==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -5731,143 +5755,146 @@ dotenv@^9.0.2:
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-9.0.2.tgz"
   integrity sha512-I9OvvrHp4pIARv4+x9iuewrWycX6CcZtoAu1XrzPxc5UygMJXJZYmBsynku8IkrJwgypE5DGNjDPmPRhDCptUg==
 
-drupal-jsonapi-params@^2.0.0:
+drupal-jsonapi-params@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.npmjs.org/drupal-jsonapi-params/-/drupal-jsonapi-params-2.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/drupal-jsonapi-params/-/drupal-jsonapi-params-2.1.0.tgz#03d67ed9523c33dde1e62fb4311b5d17e7a5d123"
   integrity sha512-s8eVK5bDfMbVoutqXo9bEnE8+5p6lDUlylTC/N2OdxAB3dgzet6sFNyKxh0D8TUi3w/CgmiGYI1qdLLcLIS14g==
   dependencies:
     qs "^6.10.3"
 
-druxt-blocks@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.npmjs.org/druxt-blocks/-/druxt-blocks-0.16.3.tgz"
-  integrity sha512-0DBBdaiQjV+NTUUkY1c72SaP+MN40SSnF6Ep1rD3Ddyc1csYvL6ScAbJnGoKR2nZpXZV+GiLi4qFOq1WilmMjw==
+druxt-blocks@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/druxt-blocks/-/druxt-blocks-0.17.0.tgz#71cde344479ca0aba88061ac83bc4cfa45f31612"
+  integrity sha512-IDEQQ8W9cvjIszPP3Sr50hd0OPsTV9xn0WfRpsN6O+eyyBOAbVUsjpH9Ysf3bijsM0DZIylQOlg43Kxm9KSedg==
   dependencies:
     axios "^0.27.2"
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
-    druxt-entity "^0.26.0"
-    druxt-router "^0.28.0"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
+    druxt-entity "^0.27.0"
+    druxt-router "^0.29.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-breadcrumb@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.npmjs.org/druxt-breadcrumb/-/druxt-breadcrumb-0.16.0.tgz"
-  integrity sha512-TffDjJ1WbCT9nxelgZ/gq+vdgmNmpMZIphG2L6fucj2M0R5AFPLEfACQHuwiuIo8cxyVZ0DCKjbzh+/c2blMug==
+druxt-breadcrumb@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/druxt-breadcrumb/-/druxt-breadcrumb-0.17.0.tgz#f4d126febfa42d9cb3cace93edbd7e18fad78f2e"
+  integrity sha512-PuAVzGZkWCJ4AoB/Jzl1WGds8XZAiUT/rwH9cFKFOTY4DvHjG/ovV9KCYrMk64XTcFBczPvg9sDiOfm3okLCrg==
   dependencies:
-    druxt "^0.20.0"
-    druxt-blocks "^0.16.3"
-    druxt-router "^0.28.0"
+    druxt "^0.21.0"
+    druxt-blocks "^0.17.0"
+    druxt-router "^0.29.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-entity@^0.26.0:
-  version "0.26.1"
-  resolved "https://registry.npmjs.org/druxt-entity/-/druxt-entity-0.26.1.tgz"
-  integrity sha512-Dkr/S3ics3DiEqeuMGv0NrIyPcxK+Epe//FouN8Rj63Yjr6f6d88TiJTPJFocmPGmn68FJ1maz11+lRDS9F8hg==
+druxt-entity@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/druxt-entity/-/druxt-entity-0.27.0.tgz#5928eb5bfddc20d38208db2f747c3892b1c0324c"
+  integrity sha512-W78ypUeiKZZRrLO9JFqqCfqtOdeiT6rfcSMI4kVw7srLaWboHZe9E2m6j38zGr0LI3HpAkJwC7ScMqDxey+ULQ==
   dependencies:
     deepmerge "^4.2.2"
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
-    druxt-router "^0.28.0"
-    druxt-schema "^0.11.0"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
+    druxt-router "^0.29.0"
+    druxt-schema "^0.11.1"
 
 druxt-layout-paragraphs@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/druxt-layout-paragraphs/-/druxt-layout-paragraphs-0.3.0.tgz"
   integrity sha512-3CCBIsnJ+Mh9cmMx5CIUItoTCE9IfA/MtJOLERcidBxT+hLVWHLc7hqsZsjr1w8ZG55hZZQzDLrQqbyIbY2ZCg==
 
-druxt-menu@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.npmjs.org/druxt-menu/-/druxt-menu-0.18.0.tgz"
-  integrity sha512-1Yl5lvT1AvGeX9CIoczsqdNFK8HStoWpfIjm4CVA9JwP+YmiUYbozlEa2GnXrwUDyRUpPREQse4jKREZnbmxtA==
+druxt-menu@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/druxt-menu/-/druxt-menu-0.19.0.tgz#50aaca73978cbddb044956666e9f5bf852cbc05b"
+  integrity sha512-TuLWig/GsyrseFNrUyM8XIIyT3qYMoIx0gUr+X/UYAbo3OqZSPLZEYNsuCFzUREeKdPvDK7YwfuyXLgoX9xk5Q==
   dependencies:
     deepmerge "^4.2.2"
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
-    druxt-blocks "^0.16.3"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
+    druxt-blocks "^0.17.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-router@^0.28.0:
-  version "0.28.0"
-  resolved "https://registry.npmjs.org/druxt-router/-/druxt-router-0.28.0.tgz"
-  integrity sha512-KXObVXdNBppSG4PA7aTqkqlPWb4BnZJfJzzmbvIdLOo0ecaz9buCsMYxfCqol3gO9wGU0SO1+hLsKnsxl91s2g==
+druxt-router@^0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/druxt-router/-/druxt-router-0.29.0.tgz#8d1ecae741d6171fa2a57f48cd4b2408d7d57c4f"
+  integrity sha512-BMC8bTxH5IlUhV0XEvp6OxNoqUvKbfW64TIUWq+jno1KWUEKHFL4y8fUxU4X7BP/+JQS5VmWYXyNYff0EZ6YmQ==
   dependencies:
-    druxt "^0.20.0"
+    druxt "^0.21.0"
     url-parse "^1.5.10"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-schema@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.npmjs.org/druxt-schema/-/druxt-schema-0.11.0.tgz"
-  integrity sha512-62pTz6tFNJUczuRQktLROs/L1+5/QVk5SQZR+XcDw5E+ZbkGU2opBF97VRuddpiwl311dapmpi+8xxw9cryg+Q==
+druxt-schema@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/druxt-schema/-/druxt-schema-0.11.1.tgz#cdac0e6987576f7555a1ca0ca78edf5082981d79"
+  integrity sha512-wybrcH8tI6fVNiqyVtS5sZxQ5Z89ftoRN3/+FzGl40u/3zzrrMSxeQeZkuG07NjfLDJwRe/EmIQFGgxyl/GK9w==
   dependencies:
     consola "^2.15.3"
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-site@0.13.0:
-  version "0.13.0"
-  resolved "https://registry.npmjs.org/druxt-site/-/druxt-site-0.13.0.tgz"
-  integrity sha512-v9Psfy7z8j4d1JyZObcJ/lOCgSSipm/1dxu+3Ed8IF2uj/LNZFGLnTgK8cjnnRNuX4Bq+YM7rnINFnts0gv4jw==
+druxt-site@0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/druxt-site/-/druxt-site-0.14.0.tgz#e9a592657442e16180db8ccfca242aecfae74534"
+  integrity sha512-as9C6g8Fni3CZW/Zly7thQJ9nlMFiyqqcGIJ5q71fm9JMP12XEgiF+Jk+581nCX9InkytN30uMlEfEbi1V+Ikg==
   dependencies:
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
-    druxt-blocks "^0.16.3"
-    druxt-breadcrumb "^0.16.0"
-    druxt-entity "^0.26.0"
-    druxt-menu "^0.18.0"
-    druxt-router "^0.28.0"
-    druxt-schema "^0.11.0"
-    druxt-views "^0.20.0"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
+    druxt-blocks "^0.17.0"
+    druxt-breadcrumb "^0.17.0"
+    druxt-entity "^0.27.0"
+    druxt-menu "^0.19.0"
+    druxt-router "^0.29.0"
+    druxt-schema "^0.11.1"
+    druxt-views "^0.21.0"
     md5 "^2.3.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt-views@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.npmjs.org/druxt-views/-/druxt-views-0.20.0.tgz"
-  integrity sha512-lQjNIoWiTuiM23AkwJHtNtsFkav1I/NDHBsUCvZf2JC6Zbm08QZApun+qihzQgbnVfwSAMEow90pNZ0ic7Yjlw==
+druxt-views@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/druxt-views/-/druxt-views-0.21.0.tgz#53d25fb3b986433a72b08ef073fc3565095f1b1f"
+  integrity sha512-JnugO0GoDgzfhPGhJ2nhEsChdOVo8Jul6JVemNPd3eTyDjzhCN4AC5bOe4b0qtQwhhwe3cSMeJHAvbaC5zqR6A==
   dependencies:
     axios "^0.27.2"
     deepmerge "^4.2.2"
-    drupal-jsonapi-params "^2.0.0"
-    druxt "^0.20.0"
-    druxt-blocks "^0.16.3"
-    druxt-entity "^0.26.0"
-    druxt-router "^0.28.0"
+    drupal-jsonapi-params "^2.1.0"
+    druxt "^0.21.0"
+    druxt-blocks "^0.17.0"
+    druxt-entity "^0.27.0"
+    druxt-router "^0.29.0"
     md5 "^2.3.0"
   optionalDependencies:
-    vue "^2.6.14"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
-druxt@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.npmjs.org/druxt/-/druxt-0.20.0.tgz"
-  integrity sha512-mbHZu4N8ynT/CnY1TqA7iQ/v/4z1BA+UnfQQLp4FFtiTGFC3QcE/R70LeCVGelG2vsGsYAvXkg4Dao1UZBT7Pw==
+druxt@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/druxt/-/druxt-0.21.0.tgz#4d47da5b2490eadc7fe552742b07d76be801becc"
+  integrity sha512-fux/TOIzOtJYGb864SXdc4RpgQi7pIjhsouIhOlaBHL/eC9e4HF0sZRdI1jZSv2c7nLq1ZPBuqJU/rKqhvcopA==
   dependencies:
     "@nuxtjs/axios" "^5.13.6"
     "@nuxtjs/proxy" "^2.1.0"
+    "@vue/devtools-api" "^6.4.5"
     chalk "^4.1.2"
     deepmerge "^4.2.2"
-    drupal-jsonapi-params "^2.0.0"
+    drupal-jsonapi-params "^2.1.0"
+    express-rate-limit "^6.6.0"
+    launch-editor "^2.6.0"
     md5 "^2.3.0"
     querystring "^0.2.1"
-    scule "^0.2.1"
+    scule "^0.3.2"
   optionalDependencies:
-    core-js "^3.22.5"
-    vue "^2.6.14"
+    core-js "^3.25.1"
+    vue "^2.7.10"
     vuex "^3.6.2"
 
 duplexer@^0.1.2, duplexer@~0.1.1:
@@ -6262,6 +6289,11 @@ expand-brackets@^2.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+express-rate-limit@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-6.6.0.tgz#3bbc2546540d327b1b0bfa9ab5f1b2c49075af98"
+  integrity sha512-HFN2+4ZGdkQOS8Qli4z6knmJFnw6lZed67o6b7RGplWeb1Z0s8VXaj3dUgPIdm9hrhZXTRpCTHXA0/2Eqex0vA==
 
 express@^4.17.1:
   version "4.18.1"
@@ -9448,13 +9480,6 @@ opener@1.5.2, opener@^1.5.2:
   resolved "https://registry.npmjs.org/opener/-/opener-1.5.2.tgz"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
 
-opn@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/opn/-/opn-6.0.0.tgz"
-  integrity sha512-I9PKfIZC+e4RXZ/qr1RhgyCnGgYX0UEIlXgWnCOVACIvFgaC9rz6Won7xbdhoHrd8IIhV7YEpHjreNUNkqCGkQ==
-  dependencies:
-    is-wsl "^1.1.0"
-
 optimize-css-assets-webpack-plugin@^5.0.4:
   version "5.0.8"
   resolved "https://registry.npmjs.org/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.8.tgz"
@@ -10614,10 +10639,10 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.4.16, postcss@^8.1.10, postcss@^8.2.15, postcss@^8.4.14:
-  version "8.4.16"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.16.tgz"
-  integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
+postcss@8.4.18:
+  version "8.4.18"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
+  integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
@@ -10630,6 +10655,15 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2
   dependencies:
     picocolors "^0.2.1"
     source-map "^0.6.1"
+
+postcss@^8.1.10, postcss@^8.2.15, postcss@^8.4.14:
+  version "8.4.16"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.16.tgz"
+  integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
+  dependencies:
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
 
 prepend-http@^1.0.0:
   version "1.0.4"
@@ -11618,6 +11652,11 @@ scule@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/scule/-/scule-0.2.1.tgz"
   integrity sha512-M9gnWtn3J0W+UhJOHmBxBTwv8mZCan5i1Himp60t6vvZcor0wr+IM0URKmIglsWJ7bRujNAVVN77fp+uZaWoKg==
+
+scule@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/scule/-/scule-0.3.2.tgz#472445cecd8357165a94a067f78cee40e700b596"
+  integrity sha512-zIvPdjOH8fv8CgrPT5eqtxHQXmPNnV/vHJYffZhE43KZkvULvpCTvOt1HPlFaCZx287INL9qaqrZg34e8NgI4g==
 
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.6.0:
   version "5.7.1"
@@ -13180,6 +13219,20 @@ vue-router@^3.5.1:
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.6.5.tgz"
   integrity sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==
 
+vue-server-renderer@2.7.13:
+  version "2.7.13"
+  resolved "https://registry.yarnpkg.com/vue-server-renderer/-/vue-server-renderer-2.7.13.tgz#be153aa4486009a273901ac421d1c3bdfe8e996a"
+  integrity sha512-GvNnUSHE04+B7EhOrk4QWbLKFMdmj2wLEEJEvtVQ/s04nKIHtxSvG4l9/i+p8q7iN3osEhfh0b/cAmXHifgSaA==
+  dependencies:
+    chalk "^4.1.2"
+    hash-sum "^2.0.0"
+    he "^1.2.0"
+    lodash.template "^4.5.0"
+    lodash.uniq "^4.5.0"
+    resolve "^1.22.0"
+    serialize-javascript "^6.0.0"
+    source-map "0.5.6"
+
 vue-server-renderer@^2.6.12:
   version "2.7.10"
   resolved "https://registry.npmjs.org/vue-server-renderer/-/vue-server-renderer-2.7.10.tgz"
@@ -13215,12 +13268,20 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.12, vue@^2.6.14:
+vue@^2.6.12:
   version "2.7.10"
   resolved "https://registry.npmjs.org/vue/-/vue-2.7.10.tgz"
   integrity sha512-HmFC70qarSHPXcKtW8U8fgIkF6JGvjEmDiVInTkKZP0gIlEPhlVlcJJLkdGIDiNkIeA2zJPQTWJUI4iWe+AVfg==
   dependencies:
     "@vue/compiler-sfc" "2.7.10"
+    csstype "^3.1.0"
+
+vue@^2.7.10:
+  version "2.7.13"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.13.tgz#e9e499cc6da46dc7941c2510193b15aa6a84a79f"
+  integrity sha512-QnM6ULTNnPmn71eUO+4hdjfBIA3H0GLsBnchnI/kS678tjI45GOUZhXd0oP/gX9isikXz1PAzSnkPspp9EUNfQ==
+  dependencies:
+    "@vue/compiler-sfc" "2.7.13"
     csstype "^3.1.0"
 
 vuex@^3.6.2:
