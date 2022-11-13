@@ -3,6 +3,7 @@
     "@nuxtjs"
   ],
   "ignoreDeps": [
-    "drupal/gin_toolbar"
+    "drupal/gin_toolbar",
+    "php"
   ]
 }
