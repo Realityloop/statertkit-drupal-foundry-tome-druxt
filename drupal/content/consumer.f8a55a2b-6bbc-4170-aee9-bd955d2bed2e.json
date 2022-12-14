@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "a307a32e-7a33-4750-993a-7362b010b18f"
+            "value": "f8a55a2b-6bbc-4170-aee9-bd955d2bed2e"
         }
     ],
     "langcode": [
@@ -12,7 +12,7 @@
     "owner_id": [
         {
             "target_type": "user",
-            "target_uuid": "7405b79f-638c-46db-97e8-3cb339655225"
+            "target_uuid": "c39a1636-8a94-4af6-8e68-42faafe9164d"
         }
     ],
     "label": [
@@ -50,14 +50,9 @@
         }
     ],
     "secret": [],
-    "grant_types": [],
     "confidential": [],
-    "scopes": [],
+    "roles": [],
     "redirect": [],
-    "access_token_expiration": [],
-    "refresh_token_expiration": [],
     "user_id": [],
-    "pkce": [],
-    "automatic_authorization": [],
-    "remember_approval": []
+    "pkce": []
 }
