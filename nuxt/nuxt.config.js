@@ -35,7 +35,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // 'theme',
+    'bootstrap-vue/nuxt',
     'druxt-site',
     'druxt-layout-paragraphs',
   ],

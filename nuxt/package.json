@@ -11,6 +11,7 @@
     "test:e2e": "start-server-and-test dev http://localhost:3000 'npx cypress run'"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.23.1",
     "core-js": "3.26.1",
     "druxt-layout-paragraphs": "^0.3.0",
     "druxt-site": "0.14.0",
