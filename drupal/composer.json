@@ -196,10 +196,6 @@
                 "https://www.drupal.org/project/drupal/issues/2350939#comment-14761757": "https://www.drupal.org/files/issues/2022-10-25/2350939-290.patch",
                 "#3312270 - Twig LoaderError after upgrading Twig to 2.15.3": "https://www.drupal.org/files/issues/2022-09-28/3312270-claro-menu-twig-fix.patch"
             },
-            "drupal/druxt": {
-                "#3315030 - Add a wildcard route translator": "https://git.drupalcode.org/project/druxt/-/merge_requests/11.diff",
-                "#3315035 - Cannot load the 'view' entity with NULL ID": "https://git.drupalcode.org/project/druxt/-/merge_requests/10.diff"
-            },
             "drupal/entity_clone": {
                 "Batch field creation https://www.drupal.org/project/entity_clone/issues/2845094#comment-14163283": "https://git.drupalcode.org/project/entity_clone/-/merge_requests/8.diff"
             },
@@ -213,7 +209,8 @@
                 "https://www.drupal.org/project/field_tools/issues/3297214": "https://git.drupalcode.org/project/field_tools/-/merge_requests/5.diff"
             },
             "drupal/focal_point": {
-                "Preview link accidentally closes the media library https://www.drupal.org/project/focal_point/issues/3162210#comment-13855854": "https://www.drupal.org/files/issues/2020-10-11/preview_link_accidentally_closes_the_media_library-3162210-19.patch"
+                "Preview link accidentally closes the media library https://www.drupal.org/project/focal_point/issues/3162210#comment-13855854": "https://www.drupal.org/files/issues/2020-10-11/preview_link_accidentally_closes_the_media_library-3162210-19.patch",
+                "Drupal 10 compatibility fixes https://www.drupal.org/project/focal_point/issues/3295940": "https://git.drupalcode.org/project/focal_point/-/merge_requests/8.diff"
             },
             "drupal/gin": {
                 "https://www.drupal.org/project/gin/issues/3217391#comment-14212917": "https://git.drupalcode.org/project/gin/-/merge_requests/92.diff"
