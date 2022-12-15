@@ -35,7 +35,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // 'theme',
+    '@nuxtjs/tailwindcss',
     'druxt-site',
     'druxt-layout-paragraphs',
   ],
